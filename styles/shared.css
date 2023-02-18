@@ -9,6 +9,28 @@ ul {
     padding: 0;
 }
 
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+#container {
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 #page-logo a {
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
